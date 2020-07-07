@@ -97,6 +97,18 @@ collections:
             allow_multiple: false
             hint: "This image will show on the home page. It needs to be a minimum of 1000 pixels wide."
             required: false
+          - label: "Logo Image top left"
+            name: "logo"
+            widget: "image"
+            allow_multiple: false
+            hint: "Note: You are simply replacing this image with the same name. Do NOT rename. This image will show on all pages. It needs to be a maximum of 70 pixels square."
+            required: true
+          - label: "Favicon"
+            name: "favicon"
+            widget: "image"
+            allow_multiple: false
+            hint: "This needs to be an ICO type image. Note: You are simply replacing this ico file with the same name. Do NOT rename."
+            required: false
           - label: "Grid Layout"
             name: "gridlayout"
             widget: "boolean"
