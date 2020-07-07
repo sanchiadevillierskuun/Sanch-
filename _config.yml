@@ -1,0 +1,75 @@
+# collections
+collections:
+  posts:
+    title: Posts
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    header_feature_image:
+    caption:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+    header_feature_image:
+    caption:
+
+# SITE CONFIGURATION
+baseurl: ''  #leave this alone
+url: "https://yoursite.netlify.app"   #change this to yours
+repository: yourusername/yourrepository
+# twitter_username: pageboy  #change to your own twitter account
+lang: en_gb
+timezone: UTC
+
+rss: false  # Make sure you created a feed.xml with feed.xml layout
+# excerpt_separator: <!--above-here-is-displayed-on-home-page-->
+
+# Scripts / Features
+google_analytics: # Tracking ID, e.g. "UA-000000-01"
+
+# Localization strings
+str_follow_on: "Follow on"
+str_rss_follow: "Follow RSS feed"
+str_share_on: "Share on"
+str_add_to: "Add to"
+str_email: "Email"
+str_tweet: "Tweet"
+str_pin_it: "Pin it"
+str_next_post: "Next post"
+str_previous_post: "Previous post"
+str_next_page: "Next"
+str_previous_page: "Prev"
+str_javascript_required_disqus: "Please enable JavaScript to view comments."
+
+# Post navigation
+post_navigation: true
+
+# PAGINATION
+paginate: 10
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  parse_block_html: true
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'codehilite'
+    # span:
+    #   line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+permalink: pretty
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+exclude: [".jekyll-cache", "Gemfile", "README.md"]
+github: [metadata]
