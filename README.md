@@ -26,14 +26,14 @@ https://commonmark.org/help/tutorial/
 - Keep the Netlify window open and do not sign out
 
 ### GitHub is where the files are hosted.
-Netlify needs to have permission to take your files from GitHub and build the site every time you make changes. Netlify needs 2  items - an ID and a secret.
+Netlify needs to have permission to take your files from GitHub and build the site every time you make changes. Netlify needs 2  codes - an ID and a secret.
 
 Now in Github, go to your GitHub account and on the left side at the bottom find `OAuth Apps`. In here you need to add a new app and after putting in the details you should be provided with a **Client ID** and a **Client Secret**. We need these 2 items in Netlify.
 
 ### In Netlify
 I hope you can see why I suggested keeping the 2 browser windows / tabs open now.
 - Go to Site Settings > Access control >Scroll to the bottom and select OAuth > GitHub.
-- Paste in here the 2 items from GitHub, **Client ID** and **Client Secret**
+- Paste in here the 2 codes from GitHub, **Client ID** and **Client Secret**
 
 ### Back in Github you can now make some basic edits
 
