@@ -8,18 +8,14 @@ caption: Cobbles
 
 This is just a sample post that you should delete. This first paragraph will appear on the home page as a preview of the post. The rest below this paragraph will appear on the blog post page.
 
-
 The `header_feature_image` is optional and you should enter the path to it in the metadata above.
 
 > Here follows some more placeholder text. You can see the `markdown` when viewing this post in Atom. This is a *blockquote*.
 
 
-
 ![Here is a book](../uploads/pages.jpg)
 
 By impossible of in difficulty discovered celebrated ye. Justice joy manners boy met resolve produce. Bed head loud next plan rent had easy add him. To open draw dear be by side like.
-
-<div class="video-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/KGUcNzkrAE0?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 It sportsman earnestly ye preserved an on. Moment led family sooner cannot her window pulled any. Or raillery if improved landlord to speaking hastened differed he. Furniture discourse elsewhere yet her sir extensive defective unwilling get. Why resolution one motionless you him thoroughly. Written address greatly get attacks inhabit pursuit our but. Lasted hunted enough an up seeing in lively letter. Had judgment out opinions property the supplied.
 
@@ -50,5 +46,3 @@ There is a lot more that you can learn about `markdown` but by using **Atom** th
 Ten the hastened steepest feelings pleasant few surprise property. Led raising expense yet demesne weather musical. Me mr what park next busy ever. Elinor her his secure far twenty eat object. Late any far saw size want man. Which way you wrong add shall one.
 
  No betrayed pleasure possible jointure we in throwing. And can event rapid any shall woman green. Smiling nothing affixed he carried it clothes calling he no. Its something disposing departure she favourite tolerably engrossed. Excellence put unaffected reasonable mrs introduced conviction she. Nay particular delightful but unpleasant for uncommonly who.
-
-youtube dxQtlNQlwo0
