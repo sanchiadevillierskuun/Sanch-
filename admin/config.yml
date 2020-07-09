@@ -197,7 +197,7 @@ collections:
             pattern: ['@', 'Must be a valid email address']
             required: false
           - label: "GitHub"
-            name: "GitHub"
+            name: "github"
             widget: "string"
             required: false
             hint: "Put your Github repo in here and then people can see your code. You just need the username and repo name like this  `username/myrepo`"
