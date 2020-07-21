@@ -48,7 +48,7 @@ collections:
     delete: false
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     media_folder: "uploads"
-    public_folder: "/uploads"
+    public_folder: "../uploads"
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
@@ -57,6 +57,25 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Show on the menu?", name: "show", widget: "boolean", default: false, hint: "If this is switched on, the link will show on the menubar to the right."}
+      - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "homepageitems"
+    label: "Home Page Blocks" # Used in the UI
+    label_singular: "Block"
+    description: "You can have up to 4 blocks on the home page with an image and some text. You cannot add any here but you can unpublsh any of the 4. To edit the home page main text and image, edit the page called home in the pages."
+    folder: "_homepageitems/" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    delete: false
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    media_folder: "uploads"
+    public_folder: "../uploads"
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
