@@ -1,12 +1,12 @@
 description: A website with a blog
-header_text: Brookes Dream Blog
+header_text: My Dream Blog
 footer_text: Copyright 2020 Your name
 header_feature_image: /uploads/pages.jpg
 gridlayout: false
-items:
-  - name: Editor
-    siteurl: /admin/
-    tab: true
+# items:
+#   - name: Blog
+#     siteurl: /blog/
+#     tab: false
 logo: /uploads/face.jpg
 upzoom: true
 favicon: /uploads/favicon.ico

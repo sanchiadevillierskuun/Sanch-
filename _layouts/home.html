@@ -3,16 +3,20 @@ layout: default
 ---
 
 <div class="home">
+<article class="page-content {% if page.header_feature_image %}feature-image{% endif %}">
+  <header id="main">
+      <h1 id="{{ page.title | escape }}" class="title">{{ page.title }}</h1>
+    {%- if page.subtitle -%}
+    <h2 class="subtitle">{{ page.subtitle }}</h2>
+    {%- endif -%}
 
-{%- if site.data.settings.header_feature_image -%}
-  <div id="main" class="call-out"
-  style="text-shadow: 0px 0px 10px rgba(0,0,0,0.9) !important; background-image: url('{{ site.data.settings.header_feature_image | relative_url }}')">
-  {%- if site.data.settings.header_text -%}
-    <h1> {{ site.data.settings.header_text }} </h1>
-  {%- endif -%}
-  </div>
-{%- endif -%}
+  </header>
 
-{%- include blog.html -%}
+  <section class="post-content">
+	{{ content }}
+  </section>
+
+</article>
+{%- include homepageitems.html -%}
 
 </div>
