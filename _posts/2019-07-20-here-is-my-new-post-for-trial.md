@@ -25,7 +25,7 @@ Of recommend residence education be on difficult repulsive offending. Judge view
 
 ## Here is a an image
 
-![Wooden Type](/uploads/log.jpg)
+![Wooden Type](../uploads/log.jpg)
 
 She who arrival end how fertile enabled. Brother she add yet see minuter natural smiling article painted. Themselves at dispatched interested insensible am be prosperous reasonably it. In either so spring wished. Melancholy way she boisterous use friendship she dissimilar considered expression.
 
