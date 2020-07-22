@@ -30,7 +30,7 @@ str_javascript_required_disqus: "Please enable JavaScript to view comments."
 post_navigation: true
 
 # PAGINATION
-paginate: 2
+paginate: 8
 paginate_path: "blog/page:num"
 
 # collections
@@ -63,3 +63,4 @@ exclude: ["blog/index.html"]
 # exclude: ["index.html"]
 
 # Note you will then want to add the blog to the menubar through the CMS
+# You should also UNCOMMENT the homepageitems section in the config.yml file inside the the admin folder
