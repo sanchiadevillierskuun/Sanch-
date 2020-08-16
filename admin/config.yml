@@ -84,7 +84,7 @@ collections:
   - label: "Settings"
     name: "data"
     show_preview_links: false
-    description: "These are the settings for the site. This includes the name and description of your blog and your social media accounts."
+    description: "These are the general settings for the site. This includes the name and description of your blog and your banner image and logo."
     editor:
       preview: false
     files:
@@ -106,7 +106,7 @@ collections:
             name: "header_text"
             widget: "string"
             required: false
-            hint: "This will appear above the manin image on the home page."
+            hint: "This will appear above the main image on the home page."
           - label: "Text in the Footer"
             name: "footer_text"
             widget: "string"
@@ -118,6 +118,18 @@ collections:
             allow_multiple: false
             hint: "This image will show on the home page. It needs to be a minimum of 1000 pixels wide."
             required: false
+
+          - label: "Height of Home Page Image"
+            name: "bannerheight"
+            widget: "select"
+            options:
+              - { label: "Shallow", value: "10" }
+              - { label: "Normal", value: "20" }
+              - { label: "Deep", value: "40" }
+              - { label: "Very Deep", value: "50" }
+              - { label: "Very Very Deep", value: "60" }
+            hint: "You can choose to have the home page banner image deep but remember the image needs to be high enough originally to fill the space. The height is NOT fixed but responsive and relative to the size of the viewport. If you choose a shallow setting then the optional text may not fit into that space. If you see green colour strips above and below the image, then your banner image is not high enough for your chosen setting."
+
           - label: "Logo Image top left"
             name: "logo"
             widget: "image"
@@ -134,7 +146,8 @@ collections:
             name: "gridlayout"
             widget: "boolean"
             required: false
-            hint: "You can choose to show the posts on the home page in a grid rather than just lined up vertically"
+            hint: "You can choose to show the posts on the home page in a grid rather than just lined up vertically."
+
           - label: "Image Enlargement"
             name: "upzoom"
             widget: "boolean"
@@ -161,9 +174,32 @@ collections:
                 hint: "You can optionally select to have this link open in a seperate windows or tab."
                 required: false
 
+      - label: "Select typefaces for body and headings"
+        name: "typography"
+        show_preview_links: false
+        file: "_data/typography.yml"
+        hint: "You just have a few choices that are embedded from Google Fonts. Turn this off if you want to take control by editing the typography.css yourself. The default styles will be headings with a slab serif font and the body text with a serif style. Please search Google Fonts to see how these fonts display."
+        fields:
+          - label: "Set to false if you prefer to edit the CSS yourself"
+            name: "userselection"
+            widget: "boolean"
+            default: true
+          - label: "Font to use in the body text (paragraphs etc)"
+            name: "body"
+            widget: "select"
+            options: ["Source Serif Pro", "Source Sans Pro", "Roboto Slab", "Josefin Sans", "Alegreya"]
+            default: ["Source Serif Pro"]
+            hint: "This would normally be a sans serif or serif but not slab serif."
+          - label: "Font to use in the headings"
+            name: "headings"
+            widget: "select"
+            options: ["Source Serif Pro", "Source Sans Pro", "Roboto Slab", "Josefin Sans", "Alegreya", "Bevan"]
+            default: ["Roboto Slab"]
+            hint: "You can choose any of these for the headings; Bevan is a display font."
 
       - label: "Add your Social Media accounts here"
         name: "social"
+        hint: "By adding your accounts in here, your site visitors will see icons that will take them to your other digital locations such as Facebook and Twitter."
         show_preview_links: false
         file: "_data/social.yml"
         fields:

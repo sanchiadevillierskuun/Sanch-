@@ -14,3 +14,99 @@
 {%- endif -%}
 <!--typography stylesheet-->
 <link rel="stylesheet" href="{{site.baseurl}}/styles/typography.css">
+
+<!-- these styles are added from the typography Settings -->
+{%- if site.data.typography.userselection -%}
+
+{%- if site.data.typography.body == "Source Sans Pro" -%}
+<style>
+body {
+    font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.body == "Source Serif Pro" -%}
+<style>
+body {
+    font-family: "Source Serif Pro", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.body == "Josefin Sans" -%}
+<style>
+body {
+    font-family: "Josefin Sans", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.body == "Roboto Slab" -%}
+<style>
+body {
+    font-family: 'Roboto Slab', Georgia, serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.body == "Alegreya" -%}
+<style>
+body {
+    font-family: 'Alegreya', Georgia, serif;
+}
+</style>
+{%- endif -%}
+
+<!-- headings -->
+
+{%- if site.data.typography.headings == "Source Sans Pro" -%}
+<style>
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.headings == "Source Serif Pro" -%}
+<style>
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Serif Pro", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.headings == "Josefin Sans" -%}
+<style>
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Josefin Sans", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.headings == "Roboto Slab" -%}
+<style>
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', Georgia, serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.headings == "Alegreya" -%}
+<style>
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alegreya', Georgia, serif;
+    font-weight: 700;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.headings == "Bevan" -%}
+<style>
+h1, h2 {
+    font-family: 'Bevan', Impact, serif;
+}
+</style>
+{%- endif -%}
+
+{%- endif -%}
