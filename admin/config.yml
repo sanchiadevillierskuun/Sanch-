@@ -47,13 +47,14 @@ collections:
     create: true # Allow users to create new documents in this collection
     delete: false
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    media_folder: "uploads"
+    media_folder: "/uploads"
     public_folder: "../uploads"
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false, hint: "This will show under the heading for the page."}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Show on the menu?", name: "show", widget: "boolean", default: false, hint: "If this is switched on, the link will show on the menubar to the right."}
