@@ -1,4 +1,8 @@
 # Template for a web site and blog using Jekyll and NetlifyCMS
+## Watch the YouTube playlist
+You may find it easier to watch the videos that I have made available on YouTube
+
+[Go to YouTube](https://www.youtube.com/playlist?list=PL45AD0XX_t1JSPP-PjTZJ9f9Q2Cb87i5C)
 
 ## Usage
 
