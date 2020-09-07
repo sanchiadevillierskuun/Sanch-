@@ -10,7 +10,14 @@
 
     <style>
       .home #main {
-        height:{{ site.data.settings.bannerheight }}vmax;
+        height:{{ site.data.settings.bannerheight }};
+      }
+
+      @media screen and (max-width: 450px) {
+
+        .home #main {
+          height:20vmin;
+        }
       }
     </style>
 
