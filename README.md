@@ -8,7 +8,7 @@ You may find it easier to watch the videos that I have made available on YouTube
 
 ## Usage
 
-This is a template set up for students to begin their own web site. The template is created by Chris Jennings and is based on various Jekyll themes.
+This is a template set up for anyone to begin their own web site. The template is created by Chris Jennings and is based on various Jekyll themes.
 
 `Jekyll` is a system for building and editing static web sites; meaning that it does not need a database for the content. Content can be added with a simple text language called `Markdown`. You can explore and learn **Markdown** here:
 
@@ -41,7 +41,13 @@ Although the main content is built with markdown and converted to HTML automatic
 
 Netlify needs to have permission to take your files from GitHub and build the site every time you make changes. Netlify needs 2  codes - an ID and a secret.
 
-Now in Github, go to your GitHub account and on the left side at the bottom find `OAuth Apps`. In here you need to add a new app and after putting in the details you should be provided with a **Client ID** and a **Client Secret**. We need these 2 items in Netlify. Now go back to the Netlify window.
+Now in Github, go to your GitHub account and on the left side at the bottom find Developer settings and then see `OAuth Apps`. In here you need to add a new app and after putting in the details you should be provided with a **Client ID** and a **Client Secret**. We need these 2 items in Netlify. Now go back to the Netlify window.
+
+You will also need to enter the `callback` term in the last box. This should be this:
+
+`https://api.netlify.com/auth/done`
+
+![Here is what that page will look like after you enter the details.](../uploads/oauth.png)
 
 ### In Netlify
 
@@ -68,7 +74,7 @@ backend:
 publish_mode: editorial_workflow
 show_preview_links: true
 display_url: https://yoursite.netlify.app
-logo_url: https://yoursite.netlify.app/uploads/face.jpg
+logo_url: https://yoursite.netlify.app/uploads/logo.jpg
 ```
 
 Wherever you see `yoursite` change to the name of your site created on Netlify.
