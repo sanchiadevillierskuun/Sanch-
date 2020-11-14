@@ -47,7 +47,7 @@ You will also need to enter the `callback` term in the last box. This should be 
 
 `https://api.netlify.com/auth/done`
 
-![Here is what that page will look like after you enter the details.](../uploads/oauth.png)
+![Here is what that page will look like after you enter the details.](uploads/oauth.png)
 
 ### In Netlify
 
