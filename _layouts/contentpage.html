@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: contentsite
 ---
 
 <article id="page-content" {%- if page.header_feature_image > "" -%}class="feature-image"{% endif %}>
@@ -12,11 +12,7 @@ layout: default
   </header>
 
   <section class="post-content">
-    {{ content | replace: "../uploads", "/uploads" }}
+	{{ content }}
   </section>
-
-  <!-- Tag list for portfolio -->
-  {%- capture tag_list -%}{{ page.tags | join: "|"}}{%- endcapture -%}
-  {%- include tags_list.html tags=tag_list -%}
 
 </article>

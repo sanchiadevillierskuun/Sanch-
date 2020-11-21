@@ -1,0 +1,15 @@
+---
+layout: content
+---
+
+<main class="home">
+
+<article>
+  <section class="post-content">
+    {{ content | replace: "../uploads", "/uploads" }}
+  </section>
+
+</article>
+
+{%- include content.html -%}
+</main>
