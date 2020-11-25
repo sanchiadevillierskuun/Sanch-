@@ -179,7 +179,7 @@ collections:
   # - name: "homepageitems"
   #   label: "Home Page Blocks" # Used in the UI
   #   label_singular: "Block"
-  #   description: "You can have up to 4 blocks on the home page with an image and some text. You cannot add any here but you can unpublsh any of the 4. To edit the home page main text and image, edit the page called home in the pages."
+  #   description: "You can have blocks on the home page with an image and some text. To edit the home page main text and image, edit the page called home in the pages."
   #   folder: "_homepageitems/" # The path to the folder where the documents are stored
   #   create: false # Allow users to create new documents in this collection
   #   delete: false
