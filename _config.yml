@@ -38,7 +38,7 @@ collections:
   homepageitems:
     output: true
     layout: page
-  content:
+  recipes:
     output: true
     layout: content
 

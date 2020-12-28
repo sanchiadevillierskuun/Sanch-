@@ -142,11 +142,11 @@ collections:
 
   # uncomment out the following collection block if you want to create a new pages inside the content block. DO NOT UNCOMMENT this paragraph!
 
-  - name: "content"
-    label: "Content - Further Pages" # Used in the UI
-    label_singular: "Content Page"
+  - name: "recipes"
+    label: "Recipes" # Used in the UI
+    label_singular: "Recipes"
     description: "This is where you add another section to your site - maybe recipes or photos. The pages will be styled with the content.css file so you need to edit this for your own styling."
-    folder: "_content/" # The path to the folder where the documents are stored
+    folder: "_recipes/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     delete: true
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -166,13 +166,8 @@ collections:
         widget: "markdown"
       - label: "Layout"
         name: "layout"
-        widget: "select"
-        options:
-          - { label: "Standard Page", value: "page" }
-          - {
-              label: "Unstyled, you can use the content.css file to style yourself.",
-              value: "content",
-            }
+        widget: "hidden"
+        default: "content"
 
   # uncomment out the following collection block if you want to use a home page rather than the blog on the home page. This needs to be done after you have changed the settings in the _config.yml file in the root of your project. DO NOT UNCOMMENT this paragraph!
 
