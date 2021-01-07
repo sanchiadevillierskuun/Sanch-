@@ -65,41 +65,8 @@ collections:
       - {
           label: "Tags",
           name: "tags",
-          widget: "select",
-          multiple: true,
-          max: 5,
-          options:
-            [
-              "Architecture",
-              "Art",
-              "Books",
-              "Buildings",
-              "Cinema",
-              "Culture",
-              "Design",
-              "Education",
-              "Fonts",
-              "Graphics",
-              "History",
-              "Journalism",
-              "Landscape",
-              "Life",
-              "Literature",
-              "Media",
-              "Music",
-              "Nature",
-              "Packaging",
-              "Personal",
-              "Photography",
-              "Publishing",
-              "Retail",
-              "Science",
-              "Signage",
-              "Transport",
-              "Travel",
-              "TV",
-              "Work",
-            ],
+          widget: "list",
+          default: [""],
           required: false,
           hint: "By adding tags the posts can be listed together under that tag. You will need to enable the tags page (by turning on show on menu for the tags page.",
         }
@@ -164,7 +131,7 @@ collections:
         value_type: "int"
         default: 1
         min: 1
-        max: 10
+        max: 20
         hint: "If you want to order the recipes rather than the default alphabetical ordering then put a number here (1 will be at the top of the recipe list page)."
       - label: "Publish Date"
         name: "date"
@@ -177,12 +144,6 @@ collections:
         name: "layout"
         widget: "hidden"
         default: "recipe"
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        default: [""]
-        required: false
-        hint: "By adding tags the posts can be listed together under that tag. You will need to enable the tags page (by turning on show on menu for the tags page."
 
   # uncomment out the following collection block if you want to use a home page rather than the blog on the home page. This needs to be done after you have changed the settings in the _config.yml file in the root of your project. DO NOT UNCOMMENT this paragraph!
 
