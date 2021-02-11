@@ -8,9 +8,9 @@ comments: false
 tags:
   - ""
 ---
-Coding seems a foregin language to alot of us. Markdonws, HTML and CSS all seem pretty frightening at first, however, when you actually take a minute to look at them they aren't that scary after all! 
+Coding seems a foreign language to alot of us. Markdonws, HTML and CSS all seem pretty frightening at first, however, when you actually take a minute to look at them they aren't that scary after all! 
 
-To start, Markdowns are simply a way of formating plain text with less hassle of tags. It's an alternative to WYSIWYG (what you see is what you get) editors! For a more technical defintion, they can be described as a ***plain text formatting syntax aimed at making writing for the internet easier.**  * 
+To start, Markdowns are simply a way of formating plain text with less hassle of tags. It's an alternative to WYSIWYG (what you see is what you get) editors! For a more technical defintion, they can be described as a **\*plain text formatting syntax aimed at making writing for the internet easier.**  * 
 
 So, you're probably thinking, why do I need to use markdowns? but... markdowns are easy to learn and fast to use.  All you need to remember is to use:  \*\*. For example, \*word\* will make it bold, typing \*\*word\*\* or \_word\_ will italicize the word, links are written like this \[anchor text](http://www.URL.com), and lists are written simply as   hitting enter and add any of these three characters at the start of each line: -, *, +. 
 
