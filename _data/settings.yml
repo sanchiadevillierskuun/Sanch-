@@ -1,11 +1,11 @@
-title: Sanchia de Villiers Kuun
-description: A website with a blog
+title: "HAPPY, HEALTHY, VEGAN-LIVING. "
+description: "Lifestyle and Recipes "
 footer_text: Copyright 2020 Sanchia de Villiers Kuun
-header_feature_image: ../uploads/pages.jpg
-header_text: My Dream Blog
+header_feature_image: ../uploads/blog-pic.jpg
+header_text: "HAPPY, HEALTHY, VEGAN-LIVING. "
 header_text_color: "#ffffff"
 bannerheight: 20vmax
-logo: /uploads/logo.jpg
+logo: ../uploads/blog-pic.jpg
 favicon: /uploads/favicon.ico
 gridlayout: false
 fixednavbar: false
