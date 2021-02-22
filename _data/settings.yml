@@ -1,12 +1,12 @@
-title: Your name or name of site
-description: A website with a blog
-header_text: My Dream Blog
+title: "HAPPY, HEALTHY, VEGAN-LIVING. "
+description: "Lifestyle and Recipes "
+footer_text: Copyright 2020 Sanchia de Villiers Kuun
+header_feature_image: ../uploads/blog-pic.jpg
+header_text: "HAPPY, HEALTHY, VEGAN-LIVING. "
 header_text_color: "#ffffff"
-footer_text: Copyright 2020 Your name
-header_feature_image: ../uploads/pages.jpg
-bannerheight: "20vmax"
-gridlayout: false
-logo: /uploads/logo.jpg
+bannerheight: 20vmax
+logo: ../uploads/blog-pic.jpg
 favicon: /uploads/favicon.ico
-upzoom: true
+gridlayout: false
 fixednavbar: false
+upzoom: true
