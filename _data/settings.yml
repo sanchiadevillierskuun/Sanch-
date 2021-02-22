@@ -3,7 +3,7 @@ description: "Lifestyle and Recipes "
 footer_text: Copyright 2020 Sanchia de Villiers Kuun
 header_feature_image: ../uploads/blog-pic.jpg
 header_text: "HAPPY, HEALTHY, VEGAN-LIVING. "
-header_text_color: "#ffffff"
+header_text_color: "#ffecc5"
 bannerheight: 20vmax
 logo: ../uploads/blog-pic.jpg
 favicon: /uploads/favicon.ico
