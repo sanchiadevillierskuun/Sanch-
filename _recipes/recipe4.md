@@ -1,7 +1,7 @@
 ---
 layout: recipe #this will be a basic page with styles coming from content.css
-title: Recipe 4
-date: 2019-10-19
+title: Jackfruit Duck Pancakes by Vegan Food and Living 
+date: 2021-03-09
 published: true
 order: 4
 tags:
