@@ -1,5 +1,5 @@
 ---
-layout: recipe #this will be a basic page with styles coming from content.css
+layout: recipe 
 title: Creamy Coconut Korma by The Endless Meal
 date: 2019-10-19
 published: true
