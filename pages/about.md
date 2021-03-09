@@ -11,10 +11,13 @@ description: null
 show: false
 ---
 
-This page is where you write something about yourself. You can add pictures so that people know where you come from or where you live.
+Hello, my name is Sanchia and I am a student at Oxford Brookes Univeristy. 
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+I have recenlty began a journey into Vegan eating. I was previously a peskitarian, however I wanted to explore the many vegan alternatives on offer as well as challenge myself to trying new foods. 
 
-This file is saved inside the _pages_ folder and is saved as _about.md_ . Any file in this folder (as long as it has  the YAML header) will automatically show up as a link in the header bar.
+This journey has been difficult at times aswell as very rewarding both physically and mentally. I am constantly learning to love lots of diffrent foods and explore many diffrent cultures through vegan eating. 
 
-You should use **markdown**to write this text and this will automatically be converted to `HTML`.
+This blog is a place to explore my favourite takeaway alternatives as this is soemhting that I found tricky to find good alternatives to! I also wanted to share differnt ways in which you can help the environment through taking a step back and looking at the imapct we have on our planet. 
+
+I hope you enjoy my posts and see the fun that can be had with a vegan diet. 
+
