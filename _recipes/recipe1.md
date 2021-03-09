@@ -8,7 +8,7 @@ tags:
 ---
 
 
-![Uploading pizza.jpg…]
+![Uploading pizza.jpg…](../pizza.jpg)
 
 
 ## Ingredients
