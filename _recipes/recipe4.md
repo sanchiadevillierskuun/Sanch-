@@ -1,13 +1,16 @@
 ---
-layout: recipe #this will be a basic page with styles coming from content.css
-title: Jackfruit Duck Pancakes by Vegan Food and Living 
-date: 2021-03-09
-published: true
+title: Jackfruit Duck Pancakes by Vegan Food and Living
 order: 4
-tags:
+date: 2021-03-09
+layout: recipe
+published: true
+tags: null
 ---
 
-Ingredients:
+
+![Jackfruit Duck Pancakes ](../uploads/duck.jpg "Jackfruit Duck Pancakes")
+
+*Ingredients:*
 
 For the jackfruit duck:
 
@@ -40,35 +43,37 @@ Hoisin sauce
 sesame seeds, to garnish (optional)
 fresh coriander leaves, to garnish (optional)
 
-Method:
+*Method:*
 
-For hoisin sauce:
+For the hoisin sauce:
 
-Put all the ingredients into a blender and blitz with a smooth.
+1. Put all the ingredients into a blender and blitz with a smooth.
 
 The duck jackfruit:
 
-Drain the jackfruit tin and put in a bowl. 
-Using the back of a fork break up the jackfruit until it is in threads.
-Heat up oil in a frying pan and gently fry the spring onions until softened. 
-Add the garlic and ginger and fry for a few more minutes.
-Now add the five spice mix and fry for a minute or so.
-Add the jackfruit soy sauce, 2 tbsp of your homemade hoisin sauce, (or shop bought if you want) sesame oil and rice vinegar.
- Mix together everything well.
-Squash the jackfruit pieces again with a spoon to make sure the individual fibres separate more. 
-Season with pepper (you don’t need to add salt as already salty enough)
-Simmer gently for about 10 minutes and then cool.
-Chill in the fridge overnight to marinade.
-Just before you are ready to eat, turn on the oven to 200° C and spread the jackfruit pieces on a lined baking tray. 
-Brush them with a little hoisin sauce.
-Roast for about 20 minutes until a little crispy on the edges.
+1. Drain the jackfruit tin and put in a bowl. 
+2. Using the back of a fork break up the jackfruit until it is in threads.
+3. Heat up oil in a frying pan and gently fry the spring onions until softened. 
+4. Add the garlic and ginger and fry for a few more minutes. 
+5. Now add the five spice mix and fry for a minute or so.
+6. Add the jackfruit soy sauce, 2 tbsp of your homemade hoisin sauce, (or shop bought if you want) sesame oil and rice vinegar.
+7. Mix together everything well.
+8. Squash the jackfruit pieces again with a spoon to make sure the individual fibres separate more. 
+9. Season with pepper (you don’t need to add salt as already salty enough)
+10. Simmer gently for about 10 minutes and then cool.
+11. Chill in the fridge overnight to marinade.
+12. Just before you are ready to eat, turn on the oven to 200° C and spread the jackfruit pieces on a lined baking tray. 
+13. Brush them with a little hoisin sauce.
+14. Roast for about 20 minutes until a little crispy on the edges.
 
 To assemble pancakes:
 
-Warm your pancakes in a bamboo steamer if you have one or in a pan with a lid on a very low heat for a few mins.
-Put some hoisin sauce on the inside of each pancake, followed by jackfruit ‘duck’, cucumber and spring onion garnish. 
-Sprinkle with sesame seeds and fresh coriander! 
-Roll up and enjoy.
+1. Warm your pancakes in a bamboo steamer if you have one or in a pan with a lid on a very low heat for a few mins.
+2. Put some hoisin sauce on the inside of each pancake, followed by jackfruit ‘duck’, cucumber and spring onion garnish. 
+3. Sprinkle with sesame seeds and fresh coriander! 
+
+
+   Roll up and enjoy.
 
 Preparation: 1hr
 Serves: 4
