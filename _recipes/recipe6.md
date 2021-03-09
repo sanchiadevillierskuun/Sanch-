@@ -1,10 +1,11 @@
 ---
-layout: recipe 
 title: Creamy Coconut Korma by The Endless Meal
-date: 2019-10-19
+order: 6
+date: 2021-03-09
+layout: recipe
 published: true
-order: 1
-tags:
+tags: null
+---
  
  
 Ingredients:
