@@ -1,6 +1,6 @@
 ---
 title: My Recipes
-permalink: /recipes/file:///Applications/recipe/recipe.html
+permalink: /file:///Applications/recipe/recipe.html
 date: 2020-11-19T18:50:31.663Z
 show: false
 layout: recipeshome
