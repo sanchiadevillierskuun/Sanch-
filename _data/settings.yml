@@ -11,8 +11,5 @@ gridlayout: true
 fixednavbar: false
 upzoom: true
 items:
-  - siteurl: file:///Applications/recipe/recipe.html
-    name: The Vegalicious Takeaway Homepage
-    tab: false
   - name: "Recipes List "
     siteurl: https://github.com/sanchiadevillierskuun/Sanch-/blob/master/pages/recipelisting.md
