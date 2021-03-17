@@ -1,6 +1,6 @@
 ---
 title: The Vegalicious Takeaway
-permalink: /allrecipes
+permalink: /recipes
 date: 2021-03-10T14:28:58.108Z
 show: true
 ---
