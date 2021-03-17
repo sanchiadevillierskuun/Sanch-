@@ -13,9 +13,38 @@ html {
 }
 
 body {
-  margin: 30px;
+  margin: 200px;
+    background-color:rgb(222,246,205);
+  font-family: verdana, arial, helvetica, inherit;
+  color: rgb(122, 104,94);
+  text-align: center;
+  line-height: 46pt;
+  padding-top: 120px 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+  list-style: none;
 }
 
+
+h1 {
+color:rgb(190, 110, 42);
+font-family: georgia, cursive;
+font-size: 6em;
+text-align: center;
+border-style: solid;white;
+padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 50px;
+padding-top: 50px;
+line-height: normal;
+}
+
+h2,h3 {
+color:rgb(69, 50, 36);
+font-family: georgia, cursive;
+font-size: 3.5em;
+text-align: centre;
+}
 article,
 aside,
 details,
@@ -33,7 +62,10 @@ summary {
 }
 
 img {
-  max-width: 100%;
+  max-width: 85%;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
 }
 
 blockquote {
@@ -53,9 +85,38 @@ th {
 p,
 ol,
 ul {
-  line-height: 1.5;
+  font-family: verdana, arial, helvetica, inherit;
+  font-size: 2.5em;
+  color: rgb(122, 104, 94) ;
+  text-align: center;
+  line-height: 46pt;
+  padding-top: 120px 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+  list-style: none;
   margin-bottom: 1em;
 }
+
+ol{
+  font-family: verdana, arial, helvetica, inherit;
+  font-size: 2.5em;
+  color: rgb(122, 104, 94) ;
+  text-align: left;
+  line-height: 195%;
+  padding-top: 120px 120px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+p{
+  font-family: verdana, arial, helvetica,inherit;
+  font-style: italic;
+  font-size: 3em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
 
 hr {
   border: 0;
@@ -81,4 +142,8 @@ ul.allrecipes {
   font-size: 60%;
   padding: 10px;
   margin: 20px 0;
+}
+
+@media query { @media screen
+
 }
