@@ -1,6 +1,6 @@
 ---
-title: "The Vegalicious Takeaway "
-permalink: /recipes
+title: "The Vegalicious Takeaway"
+permalink: /recipes/
 date: 2020-11-19T18:50:31.663Z
 show: true
 layout: recipeshome

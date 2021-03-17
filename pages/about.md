@@ -8,7 +8,7 @@ layout: page
 published: true
 tags: null
 description: null
-show: on homepage
+show: true
 ---
 Hello, my name is Sanchia and I am a student at Oxford Brookes Univeristy. 
 
