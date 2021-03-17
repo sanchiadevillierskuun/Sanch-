@@ -11,5 +11,3 @@ gridlayout: true
 fixednavbar: false
 upzoom: true
 items:
-  - name: "Recipes List "
-    siteurl: https://github.com/sanchiadevillierskuun/Sanch-/blob/master/pages/recipelisting.md
