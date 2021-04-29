@@ -2,6 +2,7 @@
 layout: post
 title: "Three Of My Favourite Vegan Cookbooks "
 date: 2021-02-22T19:19:22.257Z
+header_feature_image: ../uploads/screenshot-2021-04-29-at-07.27.49.png
 title_color: "#ffffff"
 comments: false
 tags:
