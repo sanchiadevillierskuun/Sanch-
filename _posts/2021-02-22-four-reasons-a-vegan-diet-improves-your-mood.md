@@ -2,7 +2,7 @@
 layout: post
 title: Four Reasons A Vegan Diet Improves Your Mood
 date: 2021-02-22T14:12:00.353Z
-header_feature_image: ../uploads/blog-post.jpg
+header_feature_image: ../uploads/e688a70d212faae19bcf17d9d809f718.jpg
 title_color: "#ffffff"
 comments: false
 tags:
