@@ -2,6 +2,7 @@
 layout: post
 title: "Three Of My Favourite Vegan Fashion Brands You Should All Know About! "
 date: 2021-03-05T14:53:38.569Z
+header_feature_image: ../uploads/3eda98d9fe9aa17fd79722338ee609e6.jpg
 title_color: "#ffffff"
 comments: false
 tags:
